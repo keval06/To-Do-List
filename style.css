@@ -10,7 +10,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('./To-Do-Img/images/nik-4xCmas3Gnvo-unsplash.jpg') no-repeat center center fixed;
+    background: url('./asset/background.jpg') no-repeat center center fixed;
     background-size: cover; 
     /* Ensures it covers the entire viewport */ 
 }
@@ -107,7 +107,7 @@ ul li{
 ul li::before{
     content: "";
     position: absolute;
-    background-image: url(./To-Do-Img/images/unchecked.png);
+    background-image: url(./asset/unchecked.png);
     height: 24px;
     width: 24px;
     border-radius: 50%;
@@ -124,7 +124,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image: url(./To-Do-Img/images/checked.png);
+    background-image: url(./asset/checked.png);
 }
 
 ul li span{
@@ -184,7 +184,7 @@ input{
 
 @media (max-width: 768px) {
     body {
-        background: url('./To-Do-Img/images/nik-4xCmas3Gnvo-unsplash.jpg') no-repeat center center;
+        background: url('./asset/background.jpg') no-repeat center center;
         background-size:contain; /* Ensures the full image is visible */
     }
 }
